@@ -4,6 +4,10 @@ main = "src/index.js"
 compatibility_date = "2024-08-06"
 compatibility_flags = ["nodejs_compat"]
 
+routes = [
+	{ pattern = "your.domain", custom_domain = true }
+]
+
 [dev]
 ip = "0.0.0.0"
 port = 8787
@@ -26,9 +30,6 @@ ALLOWED_REPO_PATTERNS = ['.*/.*']
 # BLOCKED_REPO_PATTERNS 拥有更高的优先级
 BLOCKED_REPO_PATTERNS = []
 
-routes = [
-	{ pattern = "your.domain", custom_domain = true }
-]
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Worker, running it closer to your back-end infrastructure
 # rather than the end user may result in better performance.
