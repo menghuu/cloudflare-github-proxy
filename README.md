@@ -1,3 +1,5 @@
+![deploy](https://github.com/menghuu/cloudflare-github-proxy/actions/workflows/deploy.yml/badge.svg)
+
 ## 感谢
 
 - 原始代码来自：[hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy/blob/master/index.js)
